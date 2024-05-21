@@ -23,9 +23,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark" 
-        enableSystem 
-        disableTransitionOnChange>{children}</ThemeProvider>
+      <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

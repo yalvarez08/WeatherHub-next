@@ -3,10 +3,13 @@ import { Button } from '@/components/ui/button';
 import { SearchBar } from './SearchBar/SearchBar';
 import { Dropdown } from './Dropdown/Dropdown';
 import { useRouter } from 'next/navigation';
+import { useGlobalContext } from '../context/GlobalContext';
 import React from 'react'
 
 const Navbar = () => {
     const router = useRouter();
+    const { state } = useGlobalContext();
+
   return (
     <div className='w-full py-4 flex items-center justify-between'>
         <div className='left'></div>
