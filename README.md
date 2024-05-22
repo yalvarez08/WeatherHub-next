@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WeatherHub
+## Description
+WeatherHub is a simple weather application built with Next.js framework. 
 
 ## Getting Started
 
