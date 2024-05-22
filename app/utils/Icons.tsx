@@ -17,14 +17,18 @@ import {
     UsersRound,
     CalendarDays,
     SunDim,
+    SunIcon,
+    CloudLightning,
  } from "lucide-react"
 
  export const commandIcon = <Command size={14} />;
  export const searchIcon = <Search />;
+ export const sunny = <SunIcon size={25} />;
  export const drizzleIcon = <CloudDrizzle size={25} />;
+ export const thunder = <CloudLightning size={25} />;
  export const rain = <CloudRain size={30} />;
  export const snow = <Snowflake size={30} />;
- export const clearSky = <CloudSun size={30} />;
+ export const partlyCloudy = <CloudSun size={30} />;
  export const cloudy = <Cloudy size={30} />;
  export const navigation = <Navigation size={15} />;
  export const thermo = <ThermometerSun size={15} />;
