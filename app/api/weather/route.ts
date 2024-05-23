@@ -10,9 +10,11 @@ export async function GET(request: NextRequest) {
         const latitude = 51.52;
         const longitude = -0.11;
 
-        const url =`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${latitude},${longitude}&aqi=yes`
+        const url =`http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${latitude},${longitude}&aqi=yes&alerts=no`
 
         const response = await axios.get(url);
+        console.log("Fetching weather data was successful!");
+
         return NextResponse.json(response.data);
 
 
