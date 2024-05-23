@@ -22,7 +22,7 @@ function Sunset() {
         <p className="pt-4 text-2xl">{sunsetTime}</p>
       </div>
 
-      <p className="text-sm">Sunrise: {moonriseTime}</p>
+      <p className="text-sm">Moonrise: {moonriseTime}</p>
     </div>
   )
 }

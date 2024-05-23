@@ -37,6 +37,8 @@ function Temperature() {
                 return partlyCloudy;
             case "Cloudy":
                 return cloudy;
+            case "Overcast":
+                return cloudy;
             case "Sunny":
                 return sunny;
             case "Light drizzle":
