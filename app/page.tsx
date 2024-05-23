@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Temperature from "./components/Temperature/Temperature";
 import AirQuality from "./components/AirQuality/AirQuality";
+import Sunset from "./components/Sunset/Sunset";
 
 const Home = () => {
   
@@ -14,8 +15,9 @@ const Home = () => {
           <Temperature />
         </div>
         <div className="flex flex-col w-full">
-          <div className="instruments grid h-full gap-4 col-span-full sm-2:col-span-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="gadgets grid h-full gap-4 col-span-full sm-2:col-span-2 lg:grid-cols-3 xl:grid-cols-4">
             <AirQuality />
+            <Sunset />
           </div>
         </div>
       </div>
